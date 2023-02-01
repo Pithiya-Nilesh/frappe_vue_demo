@@ -5,7 +5,7 @@
       @click="$resources.ping.fetch"
       :loading="$resources.ping.loading"
     >
-      Click to send 'ping' request
+      Click to send 'pong' request
     </Button>
     <div>
       {{ $resources.ping.data }}
